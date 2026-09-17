@@ -78,4 +78,8 @@ Pushing application code or publishing a GitHub Release does not automatically c
 
 Icons and screenshots link to pinned commits in the original repositories. Most screenshots are existing iPad captures; StarshipPad's is a Simulator capture. A screenshot of DinoPad's public game mode will be added separately.
 
+## Support my work
+
+If you enjoy my work, you can optionally [support me on Patreon](https://www.patreon.com/cw/ChrisSotraidis). All apps and updates in this catalog remain freely available. Supporting is never required.
+
 Based on the initial Classic source prepared by Matt from AltStore. [AltStore source format](https://faq.altstore.io/developers/make-a-source)
