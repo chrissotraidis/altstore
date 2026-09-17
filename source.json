@@ -380,6 +380,42 @@
       }
     },
     {
+      "name": "DevilTouch",
+      "bundleIdentifier": "com.chrissotraidis.deviltouch",
+      "developerName": "Kahris",
+      "subtitle": "Diablo and Hellfire through DevilutionX on iPad",
+      "localizedDescription": "DevilutionX adapted for iPad with direct-touch movement and targeting, a native Files importer, and keyboard, trackpad and mouse support. The classic HUD stays on screen; an optional virtual control overlay is available.\n\nRequires your own legally obtained Diablo game data; Hellfire content is optional. Retail game data is not included. This developer preview is designed for iPad; the package also declares iPhone support, but an equivalent iPhone experience has not been verified.\n\nSetup and support: https://github.com/chrissotraidis/deviltouch#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/deviltouch/cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823/platform/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#8B1A1A",
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.5.5",
+          "buildVersion": "2",
+          "marketingVersion": "1.5.5 Preview 1",
+          "date": "2026-09-17T10:21:02Z",
+          "localizedDescription": "First public AltStore Classic IPA preview, version 1.5.5 build 2. Replaces the archive reader with MIT mpqfs while preserving direct-touch controls, Files import and the existing save writer. Supply your own Diablo/Hellfire data. Update existing installations in place with the same signing identity; back up saves first.",
+          "downloadURL": "https://github.com/chrissotraidis/deviltouch/releases/download/v1.5.5-preview.1/DevilTouch-1.5.5-build2.ipa",
+          "size": 11865922,
+          "sha256": "6bead15f11be470adb27a0b9c9e79b52e1fe9ddcb11c216a146bc27404161642",
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/deviltouch/cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823/doc/images/deviltouch-tristram.webp",
+            "width": 1600,
+            "height": 1200
+          }
+        ]
+      }
+    },
+    {
       "name": "CaesarPad",
       "bundleIdentifier": "com.chrissotraidis.caesarpad",
       "developerName": "Kahris",

@@ -1,17 +1,17 @@
 # Kahris' Apps: launch plan
 
-Updated on 17 September 2026. The catalog is hosted and contains 14 apps. DevilTouch's updated IPA is being prepared separately. Classic source testing and Matt's Featured Lists placement are the remaining distribution steps.
+Updated on 17 September 2026. The catalog is hosted and contains all 15 requested apps, including DevilTouch 1.5.5 build 2. Users can add its public URL to AltStore Classic now. Device testing remains pending; Matt's proposed Featured Lists placement is a separate discovery step, not a prerequisite for hosting a Classic source.
 
 ## What is ready
 
 - [x] Review all 15 requested public repositories and their release notes.
-- [x] Select 14 published iPhone/iPad IPAs; exclude Mac, Android and Apple TV artifacts.
-- [x] Download all 14 selected IPAs anonymously, verify ZIP integrity, and match byte sizes and SHA-256 against GitHub asset metadata.
+- [x] Select 15 published iPhone/iPad IPAs; exclude Mac, Android and Apple TV artifacts.
+- [x] Download all 15 selected IPAs anonymously, verify ZIP integrity, and match byte sizes and SHA-256 against GitHub asset metadata.
 - [x] Read actual bundle IDs, display names, versions, build numbers, device families and privacy descriptions from the packages.
 - [x] Inspect code signatures/entitlements, including SunPad's nested module and UTP's dynamic libraries.
 - [x] Confirm iOS platform and deployment targets from Mach-O build commands.
 - [x] Write descriptions based on project READMEs and selected release notes.
-- [x] Add 14 app icons and 13 existing iPad screenshots using verified, commit-pinned public URLs and actual dimensions.
+- [x] Add 15 app icons and 14 existing iPad screenshots using verified, commit-pinned public URLs and actual dimensions.
 - [x] Prepare the source, README, package audit and local validator.
 
 Package inspection did not constitute a new full game-data/license audit, gameplay test or AltStore install. Existing release boundaries and upstream notices still apply. Public downloads were inspected locally; no ROMs, saves or signing material were collected.
@@ -27,7 +27,7 @@ Package inspection did not constitute a new full game-data/license audit, gamepl
 | PeonPad | Label iPad-only. Preview 1 is actually version 0.1.0 **build 4**. Explain desktop extraction and manual `data.Wargus` setup. |
 | CaesarPad | Describe as designed for iPad. Its IPA also declares iPhone; that does not establish a tested iPhone experience. |
 | Bellpad | Preserve the project's spelling, **Bellpad**. Its plist omits `MinimumOSVersion`; executable metadata confirms iOS 17.0. Verify install behavior; repair app packaging in its own project if Classic rejects it. |
-| DevilTouch | Updated IPA in preparation in its own project. Add it once the owner has completed that release and its metadata is verified. |
+| DevilTouch | Include newly published `v1.5.5-preview.1`: actual version 1.5.5, build 2, minimum iOS 13.0. Release source matches main. Designed for iPad; IPA declares both iPhone and iPad. Preserve preview labeling and free distribution. Package inspection is complete; physical Classic installation remains untested here. |
 
 The source and app developer labels use the alias **Kahris**. Existing GitHub account URLs and app bundle identifiers are unchanged. App order follows the owner's list; the five source highlights are KartPad, HarkinianPad, GoldenPad, SunPad and SpaghettiPad. This is independent of Matt's proposed Featured Lists placement.
 
@@ -37,17 +37,19 @@ The old Preview 3 IPA and the newest compatibility IPA both report **version 0.1
 
 Do not invent a higher build number in the JSON or create two entries with the same version/build. The previous download is retained in the audit history instead. For automatic upgrades, the next UTP release needs a new internal build number, then a matching catalog entry. If replacing an existing installation manually, use the same signing identity and preserve app data; do not uninstall merely to force an update.
 
+The old Preview 3 file is already superseded in this catalog: only the newer compatibility IPA is offered. Keep the old GitHub release as an archive. Deleting it or relabeling its tag would not solve the duplicate internal version/build. No UTP releases or assets were deleted or changed for this catalog update.
+
 ## SunPad installation
 
 SunPad's IPA includes the app and an internal executable module, `gGMSE01_recomp.dylib`. Both must be signed for the user's device. Keep the existing public unsigned IPA in the catalog; signing occurs in the installation workflow. The remaining check is whether the installed Classic/AltServer version signs and launches that package correctly. No signing credentials belong in this repository, and no new SunPad build is requested merely because the module exists.
 
 ## Next steps, in order
 
-1. **Finish DevilTouch separately.** When its updated IPA is published, verify its actual version/build, bundle ID, permissions, minimum OS, byte size and checksum, then add its listing. The existing 14 apps can be tested now.
-2. **Use the hosted catalog for testing.** This repository's `main` branch hosts the source; the README contains its permanent raw URL. No separate server or website is required for this setup. The source is public to anyone with its URL, while device acceptance and Featured Lists placement remain pending. Run `python3 scripts/validate_source.py` before subsequent catalog changes.
+1. **Send Matt the source for review.** All 15 listings are prepared. Ask what he needs for Featured Lists, including any requirements around preview apps, artwork or review. Say that package checks passed but installation through Classic still needs testing. The draft below has not been sent.
+2. **Use the hosted catalog for testing.** This repository's `main` branch hosts the source; the README contains its permanent raw URL. No separate server or website is required for this setup. Hosting this JSON is the publishing mechanism; Matt's response is about his proposed listing and any additional onboarding requirements. Run `python3 scripts/validate_source.py` before subsequent catalog changes.
 3. **Test through AltStore Classic.** Add that exact source URL on a real device. Check the source name, all app cards, icons, screenshot proportions and preview labels. Install the selected apps through the source, complete their documented game-data setup, and verify launch, input, audio and saving. Give SunPad's nested signing and UTP's libraries explicit attention. Check PeonPad on iPad and that iPad-only restrictions are respected. Start with KartPad and HarkinianPad if testing incrementally.
 4. **Test an update with preserved data.** Using a staging source URL and a backed-up app, verify an older selected build can update to a newer build using the same Apple account/bundle setup. Confirm imported files, settings and saves remain. Do not put old versions ahead of newer ones in the public catalog to simulate an update. Record failures before changing app code.
-5. **Send Matt the source and results.** Ask about Featured Lists eligibility, required art/metadata, and whether preview apps or an additional review affect inclusion. A working source and a featured listing are separate milestones. The message below is ready to adapt; it has not been sent.
+5. **Follow up with results.** Send Matt precise device-test results and any exceptions. A working source and a featured listing are separate milestones; no featured placement is confirmed yet.
 6. **Announce the tested lineup.** Resolve or remove failed candidates first. Update this record and README to reflect actual testing. Update the selected app READMEs with the source link after those apps are accepted. Add an optional source news item when the launch is ready.
 
 Screenshots are documentation captures, not fresh captures of every selected IPA. Review their presentation in Classic. StarshipPad uses its explicitly identified Simulator hero. Capture DinoPad gameplay from the public release before adding its screenshot; the existing README hero shows the separate Restored Adventure modification. This optional image does not block including DinoPad. Extra iPhone screenshots are also optional polish.
@@ -68,6 +70,7 @@ For each app, record the tested IPA/hash, device model and OS, Classic/AltServer
 | MaskPad | Pending | Pending |
 | StarshipPad | Pending | Pending |
 | PaperPad | Pending | Pending |
+| DevilTouch | Pending; test on iPad | Pending |
 | CaesarPad | Pending; test on iPad | Pending |
 | DinoPad | App ready per owner; Classic source install pending | Pending |
 | Bellpad | Pending; package metadata check | Pending |
@@ -83,11 +86,11 @@ Unsent draft. The repository and source URL are already available. Adjust the te
 >
 > Source URL: https://raw.githubusercontent.com/chrissotraidis/altstore/main/source.json
 >
-> It currently lists 14 apps with descriptions, icons and verified IPA metadata. Screenshots are included for 13. DevilTouch will follow once its updated IPA is ready.
+> It now lists all 15 apps, including the new DevilTouch IPA, with descriptions, icons and verified IPA metadata. Screenshots are included for 14.
 >
 > Next I'm testing installation and updates through the source in Classic. Is there anything else you'd like me to prepare for Featured Lists, or any requirements around preview apps, artwork or review that I should account for?
 
-After device testing, replace the testing sentence with a precise result or a short list of the remaining exceptions. Do not claim all 14 work through Classic based only on the package audit.
+After device testing, replace the testing sentence with a precise result or a short list of the remaining exceptions. Do not claim all 15 work through Classic based only on the package audit.
 
 ## When you release an app update
 

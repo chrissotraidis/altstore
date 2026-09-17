@@ -618,6 +618,62 @@
       "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
+      "repository": "https://github.com/chrissotraidis/deviltouch",
+      "name": "DevilTouch",
+      "readmeCommit": "cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823",
+      "readmeURL": "https://github.com/chrissotraidis/deviltouch/blob/cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/deviltouch/releases/tag/v1.5.5-preview.1",
+      "tag": "v1.5.5-preview.1",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/deviltouch/releases/download/v1.5.5-preview.1/DevilTouch-1.5.5-build2.ipa",
+      "sha256": "6bead15f11be470adb27a0b9c9e79b52e1fe9ddcb11c216a146bc27404161642",
+      "githubDigest": "sha256:6bead15f11be470adb27a0b9c9e79b52e1fe9ddcb11c216a146bc27404161642",
+      "size": 11865922,
+      "bundleIdentifier": "com.chrissotraidis.deviltouch",
+      "version": "1.5.5",
+      "buildVersion": "2",
+      "minimumOS": "13.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "13.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/devilutionx.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/deviltouch/cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823/platform/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/deviltouch/cf2da5a1ab07bcf26220b9cb1dffe790bfd6a823/doc/images/deviltouch-tristram.webp",
+        "width": 1600,
+        "height": 1200
+      },
+      "selectionReason": "Latest public IPA requested by the owner. Release source commit matches main. Designed for iPad; the package declares both iPhone and iPad.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v1.5.5-preview.1",
+        "publishedAt": "2026-09-17T10:21:02Z",
+        "releaseURL": "https://github.com/chrissotraidis/deviltouch/releases/tag/v1.5.5-preview.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected.",
+      "checkedAt": "2026-09-17T10:57:20.462703+00:00",
+      "packageNotes": "The Notices/sdl_image/Xcode/Frameworks/webp.framework directory contains only Versions/A/Resources/LICENSE.webp.txt, not an executable framework. Excluded from code-signature inspection after confirming its contents.",
+      "distributionNotes": "Release notes require free, non-commercial distribution under the engine terms. No Patreon requirement or paywall is configured. This catalog inspection is not independent legal clearance."
+    },
+    {
       "repository": "https://github.com/chrissotraidis/caesarpad",
       "name": "CaesarPad",
       "readmeCommit": "5a00d54e10577961887b67f9825aeef19aa1c06d",
@@ -826,15 +882,8 @@
       "releaseReviewStatus": "Latest published iOS IPA selected."
     }
   ],
-  "pending": [
-    {
-      "repository": "https://github.com/chrissotraidis/deviltouch",
-      "name": "DevilTouch",
-      "subtitle": "Diablo and Hellfire through DevilutionX on iPad",
-      "description": "DevilutionX adapted for iPad with direct touch movement and targeting, Files import, and keyboard, trackpad and mouse support. Requires user-supplied Diablo data; Hellfire content is optional. The maintainer is preparing an updated public IPA separately.",
-      "selection": "Awaiting the maintainer's updated IPA. Add only after that release is complete and its package metadata is verified."
-    }
-  ],
+  "pending": [],
   "releaseReviewedAt": "2026-09-17T08:36:51.749754+00:00",
-  "displayName": "Kahris' Apps"
+  "displayName": "Kahris' Apps",
+  "lastCatalogChangeAt": "2026-09-17T10:57:20.462703+00:00"
 }

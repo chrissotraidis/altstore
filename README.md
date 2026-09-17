@@ -2,7 +2,7 @@
 
 Native game ports for iPhone and iPad, maintained by Kahris and available through AltStore Classic.
 
-Browse 14 apps below, add the source, and follow each project's game-data setup guide. DevilTouch is being updated and will join the collection once its new IPA is ready.
+Browse 15 apps below, add the source, and follow each project's game-data setup guide.
 
 ## Add the source
 
@@ -36,15 +36,15 @@ The catalog uses the latest published iPhone/iPad releases, with KartPad's expli
 | [MaskPad](https://github.com/chrissotraidis/maskpad) | Majora's Mask for iPhone and iPad | [0.1.2](https://github.com/chrissotraidis/maskpad/releases/tag/v0.1.2) | iPhone / iPad; 14.0+ |
 | [StarshipPad](https://github.com/chrissotraidis/starshippad) | Star Fox 64 for iPhone and iPad | [0.1.0 Preview 5](https://github.com/chrissotraidis/starshippad/releases/tag/v0.1.0-preview.5) | iPhone / iPad; 16.0+ |
 | [PaperPad](https://github.com/chrissotraidis/paperpad) | Paper Mario for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/paperpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 15.0+ |
+| [DevilTouch](https://github.com/chrissotraidis/deviltouch) | Diablo and Hellfire through DevilutionX on iPad | [1.5.5 Preview 1 · build 2](https://github.com/chrissotraidis/deviltouch/releases/tag/v1.5.5-preview.1) | Designed for iPad; 13.0+ |
 | [CaesarPad](https://github.com/chrissotraidis/caesarpad) | Caesar III through Augustus, designed for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1) | Designed for iPad; 14.0+ |
 | [DinoPad](https://github.com/chrissotraidis/dinopad) | Dinosaur Planet for iPhone and iPad | [0.1.2](https://github.com/chrissotraidis/dinopad/releases/tag/v0.1.2) | iPhone / iPad; 15.0+ |
 | [Bellpad](https://github.com/chrissotraidis/bellpad) | Animal Crossing for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/bellpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 17.0+ |
 | [PeonPad](https://github.com/chrissotraidis/peonpad) | Warcraft II through Stratagus on iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1) | iPad; 16.0+ |
-| [DevilTouch](https://github.com/chrissotraidis/deviltouch) | Diablo and Hellfire through DevilutionX on iPad | Updated IPA in preparation | iPad |
 
-DevilTouch will be added after its new IPA is published. DinoPad 0.1.2 is included in the launch lineup; it plays the original Dinosaur Planet content, without the separate Restored Adventure modifications. CaesarPad is designed for iPad. Minimum OS values come from the app packages.
+DinoPad 0.1.2 is included in the launch lineup; it plays the original Dinosaur Planet content, without the separate Restored Adventure modifications. CaesarPad and DevilTouch are designed for iPad; their packages also declare iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
 
-The source's five highlighted apps follow the first five projects in the requested lineup. All 14 available apps remain in the catalog.
+The source's five highlighted apps follow the first five projects in the requested lineup. All 15 available apps remain in the catalog.
 
 ## Game setup and support
 
