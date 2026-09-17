@@ -1,0 +1,519 @@
+{
+  "name": "Chris Sotraidis: Native Classics",
+  "subtitle": "Native game ports for iPhone and iPad",
+  "description": "Game ports by Chris Sotraidis for AltStore Classic. Many releases are developer previews. Game data is not included; follow each app's setup guide. Some apps are designed for iPad only.",
+  "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+  "website": "https://github.com/chrissotraidis/altstore",
+  "tintColor": "#0A84FF",
+  "featuredApps": [
+    "dev.kartpad.app",
+    "com.chrissotraidis.harkinianpad",
+    "com.chrissotraidis.goldenpad.recomp-prototype",
+    "com.sunpad.SunPad",
+    "com.chrissotraidis.spaghettipad"
+  ],
+  "apps": [
+    {
+      "name": "KartPad",
+      "bundleIdentifier": "dev.kartpad.app",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Mario Kart Wii for iPhone and iPad",
+      "localizedDescription": "Mario Kart Wii on iPhone and iPad, built on WiiCompiled, with Metal rendering, touch controls, motion steering and controller support. Optional Retro Rewind content is installed separately.\n\nRequires your own supported PAL RMCP01 revision 0 game image. No disc image or Retro Rewind content is included.\n\nSetup and support: https://github.com/chrissotraidis/kartpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/branding/exports/KartPadIcon-1024.png",
+      "tintColor": "#FF9F0A",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.4.24",
+          "buildVersion": "49",
+          "marketingVersion": "0.4.24",
+          "date": "2026-09-16T12:37:43Z",
+          "localizedDescription": "Adds aligned mobile settings, Original Time Trial ghost import/export, expanded controller mappings, FPS counter sizing and clearer diagnostic reporting.",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
+          "size": 40889948,
+          "sha256": "1d2a5468aeec159330be142a7e3bf712e1957393931958b2278eb4b5964ef1cb",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
+        }
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/docs/images/kartpad-dk-summit-ipad.png",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "HarkinianPad",
+      "bundleIdentifier": "com.chrissotraidis.harkinianpad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Ocarina of Time for iPhone and iPad",
+      "localizedDescription": "Ocarina of Time on iPhone and iPad through Ship of Harkinian, with Metal rendering, touch controls, controller support and Files-based ROM import.\n\nRequires your own legally obtained supported Ocarina of Time ROM. No game data is included. This is a developer preview.\n\nSetup and support: https://github.com/chrissotraidis/harkinianpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/c5963066e888d45e71c16cb63bba1f9cc9329639/assets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#0A84FF",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "5",
+          "marketingVersion": "0.1.0 Preview 5",
+          "date": "2026-08-18T15:52:22Z",
+          "localizedDescription": "Preview 5 improves controller ownership after sleep, disconnect and foreground resume. Broader physical controller testing remains open.",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.5/HarkinianPad-0.1.0-preview.5-unsigned.ipa",
+          "size": 30823149,
+          "sha256": "f505c0837a984f881d158ef3524f53d476a778e6351afabff49b611bbf47cef2",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/c5963066e888d45e71c16cb63bba1f9cc9329639/docs/readme/harkinianpad-gameplay.jpg",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenPad",
+      "bundleIdentifier": "com.chrissotraidis.goldenpad.recomp-prototype",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "GoldenEye 007 for iPhone and iPad",
+      "localizedDescription": "GoldenEye 007 on iPhone and iPad, built on GoldenEye64Recomp with RT64 Metal rendering, touch controls and controller support.\n\nImport your own supported original US retail ROM; the app prepares its runtime copy locally. No ROM or extracted retail graphics and audio are included. This is a developer preview.\n\nSetup and support: https://github.com/chrissotraidis/goldenpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#C69C43",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "9",
+          "marketingVersion": "0.1.0 Preview 9",
+          "date": "2026-09-17T01:55:54Z",
+          "localizedDescription": "Preview 9 rebuilds the Apple apps from pinned maintained dependencies and makes required game-patch selection reliable. This release does not claim to fix unrelated graphics or crash reports.",
+          "downloadURL": "https://github.com/chrissotraidis/goldenpad/releases/download/v0.1.0-preview.9/GoldenPad-0.1.0-preview.9-unsigned.ipa",
+          "size": 7098161,
+          "sha256": "d5590251259f503093560ce2dbc7c1dd14d9e487eb52cd36c3aae39dda234a41",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "GoldenPad uses your local network to discover and connect to nearby LAN Netplay Lab rooms."
+        }
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/docs/images/goldenpad-rt64-bunker-ipad.jpg",
+            "width": 1600,
+            "height": 1199
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunPad",
+      "bundleIdentifier": "com.sunpad.SunPad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Super Mario Sunshine for iPhone and iPad",
+      "localizedDescription": "Super Mario Sunshine on iPhone and iPad through ahead-of-time recompilation and a Dolphin-derived runtime, built with ModernGekko and DolRecomp. Includes Metal rendering, touch controls and controller support.\n\nRequires your own supported GMSE01 USA revision 0 ISO/GCM. No game image or extracted game assets are included. Experimental preview; Original 30 FPS is the supported default, and performance varies by device.\n\nSetup and support: https://github.com/chrissotraidis/sunpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#FFB340",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "13",
+          "marketingVersion": "0.1.0 Preview 13",
+          "date": "2026-09-14T05:20:42Z",
+          "localizedDescription": "Preview 13 rebuilds from maintained forks with pinned dependencies, source notices and provenance records. No new gameplay feature or performance improvement is claimed.",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-unsigned.ipa",
+          "size": 26926655,
+          "sha256": "1c2c99c3dfac263db67754be1d7a3b17df606e4060568c06d38183b6cad2f83b",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/docs/readme/sunpad-delfino-plaza.jpg",
+            "width": 1800,
+            "height": 1349
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaghettiPad",
+      "bundleIdentifier": "com.chrissotraidis.spaghettipad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Mario Kart 64 for iPhone and iPad",
+      "localizedDescription": "Mario Kart 64 on iPhone and iPad through SpaghettiKart, with Metal rendering, analog touch steering, controller routing and optional texture and character packs.\n\nRequires your own supported Mario Kart 64 US 1.0 ROM. No ROM or optional packs are included. This is a developer preview; full multiplayer controller and performance coverage remains in testing.\n\nSetup and support: https://github.com/chrissotraidis/spaghettipad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/spaghettipad/052794580d54d442e95fb2c62d2d3b378b77e5f2/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#D83B30",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "6",
+          "marketingVersion": "0.1.0 Preview 6",
+          "date": "2026-09-15T10:28:51Z",
+          "localizedDescription": "Preview 6 adds persistent mod selection, optional compatible character packs and the new fork-and-flag icon. Imported packs remain separate downloads.",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.6/SpaghettiPad-0.1.0-preview.6-unsigned.ipa",
+          "size": 9395403,
+          "sha256": "a746fafe4dac460c5427acb81a361eb5f560df45a0550cd39f4a545977c4c0bb",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/spaghettipad/052794580d54d442e95fb2c62d2d3b378b77e5f2/docs/screenshots/ipad-race-highway.jpg",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "UTP",
+      "bundleIdentifier": "com.ut99apple.client",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Unreal Tournament 99 for iPhone and iPad",
+      "localizedDescription": "Unreal Tournament 99 on iPhone and iPad, hosting the OldUnreal v469e ARM64 runtime with Metal rendering, touch controls, controller support and classic online play. Preview 3 also includes iPad keyboard and pointer controls.\n\nEpic game data is not included. Follow the app's game-data setup or import files you are authorized to use. This is a developer preview with known rendering and compatibility limitations.\n\nSetup and support: https://github.com/chrissotraidis/utp#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/utp/05e63ca873a646eb91d83b9ab246e22efdb4f59f/Sources/UT99Host/Assets.xcassets/AppIcon.appiconset/UTP-AppIcon-1024.png",
+      "tintColor": "#CC3434",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "3",
+          "marketingVersion": "0.1.0 Preview 3",
+          "date": "2026-08-31T01:32:41Z",
+          "localizedDescription": "Preview 3 adds iPad keyboard movement, mouse/trackpad capture and speed presets, and a simplified context-sensitive host menu. Gyro aiming is not included.",
+          "downloadURL": "https://github.com/chrissotraidis/utp/releases/download/v0.1.0-preview.3/UTP-0.1.0-preview.3-unsigned.ipa",
+          "size": 10359408,
+          "sha256": "fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "UT99 uses the local network for LAN games and direct server connections."
+        }
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/utp/05e63ca873a646eb91d83b9ab246e22efdb4f59f/docs/readme/utp-gameplay-flak-cannon.png",
+            "width": 1920,
+            "height": 1439
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrawlerPad",
+      "bundleIdentifier": "com.brawlerpad.app",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Super Smash Bros. 64 for iPhone and iPad",
+      "localizedDescription": "Super Smash Bros. 64 on iPhone and iPad, built on BattleShip with Metal rendering, Files-based ROM setup, touch controls and controller support.\n\nRequires your own legally obtained supported US ROM. No ROM or playable game-asset archive is included. This is a developer preview; broader physical controller testing remains open.\n\nSetup and support: https://github.com/chrissotraidis/brawlerpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/brawlerpad/f6cb51bc114a6cf85a9d4bcb7c91914808319f56/assets/ios/BrawlerPad.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#F0543B",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "2",
+          "marketingVersion": "0.1.0 Preview 2",
+          "date": "2026-08-18T18:54:29Z",
+          "localizedDescription": "Preview 2 improves controller-slot ownership, held-input release and reconnection after sleep or foreground resume.",
+          "downloadURL": "https://github.com/chrissotraidis/brawlerpad/releases/download/v0.1.0-preview.2/BrawlerPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 7087025,
+          "sha256": "67795d4f8a07641dde7d89102617c328bb3ea3aaa82f365efe544084fd2ea880",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/brawlerpad/f6cb51bc114a6cf85a9d4bcb7c91914808319f56/docs/readme/brawlerpad-yoshi-battle.jpg",
+            "width": 1600,
+            "height": 1199
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaskPad",
+      "bundleIdentifier": "com.chrissotraidis.maskpad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Majora's Mask for iPhone and iPad",
+      "localizedDescription": "The Legend of Zelda: Majora's Mask on iPhone and iPad through 2 Ship 2 Harkinian, with Metal rendering, customizable touch controls, controller support and Files-based setup.\n\nRequires your own legally obtained supported Majora's Mask ROM. No game data is included. Area-load frame pacing and broader device coverage remain under investigation.\n\nSetup and support: https://github.com/chrissotraidis/maskpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/maskpad/34da600f75536182d086018cf70302874d57ce54/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#8D5ACB",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "marketingVersion": "0.1.2",
+          "date": "2026-08-18T17:08:21Z",
+          "localizedDescription": "Version 0.1.2 repairs controller sleep, disconnect and reconnect handling while preserving valid player assignments.",
+          "downloadURL": "https://github.com/chrissotraidis/maskpad/releases/download/v0.1.2/MaskPad-0.1.2-unsigned.ipa",
+          "size": 17511550,
+          "sha256": "5249be1d4036cb0104e30b28927502a3664ba86ccfa2d31579459c86e0af19f6",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/maskpad/34da600f75536182d086018cf70302874d57ce54/docs/readme/maskpad-hero-ipad.jpg",
+            "width": 1600,
+            "height": 1199
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarshipPad",
+      "bundleIdentifier": "com.chrissotraidis.starshippad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Star Fox 64 for iPhone and iPad",
+      "localizedDescription": "Star Fox 64 on iPhone and iPad through Starship, with Metal rendering, touch flight controls, controller support and Files-based ROM import.\n\nRequires your own legally obtained supported Star Fox 64 ROM. No game data is included. This is a developer preview; custom phone and tablet touch layouts remain experimental.\n\nSetup and support: https://github.com/chrissotraidis/starshippad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/starshippad/85264ad4e58b9556e917e813c34a73dbebcf58b9/ios-assets/AppIcon.png",
+      "tintColor": "#247BA0",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "5",
+          "marketingVersion": "0.1.0 Preview 5",
+          "date": "2026-08-18T16:40:29Z",
+          "localizedDescription": "Preview 5 refreshes the IPA from the merged controller-reconnect code and advances the build number to 5. No additional controller-code change is claimed.",
+          "downloadURL": "https://github.com/chrissotraidis/starshippad/releases/download/v0.1.0-preview.5/StarshipPad-v0.1.0-preview.5-unsigned.ipa",
+          "size": 6869652,
+          "sha256": "a57ed4bd149e8cfaf791b620681c69aeb32371d79d7242c18845832c65b57892",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/starshippad/85264ad4e58b9556e917e813c34a73dbebcf58b9/docs/readme/starshippad-hero.jpg",
+            "width": 1800,
+            "height": 1349
+          }
+        ]
+      }
+    },
+    {
+      "name": "PaperPad",
+      "bundleIdentifier": "com.chrissotraidis.paperpad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Paper Mario for iPhone and iPad",
+      "localizedDescription": "Paper Mario on iPhone and iPad, combining the pmret decompilation and Paper-Mario-ReCut runtime with Metal rendering, customizable touch controls and controller support.\n\nRequires your own unmodified Paper Mario US 1.0 ROM, imported privately on the device. No game data is included. This is a developer preview.\n\nSetup and support: https://github.com/chrissotraidis/paperpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/paperpad/74b6e45830a06c7f274c5ac1ddd7c625bc13a557/apple/app/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#E36B40",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "2",
+          "marketingVersion": "0.1.0 Preview 2",
+          "date": "2026-08-16T08:10:41Z",
+          "localizedDescription": "Preview 2 improves controller ownership and input release after sleep, disconnect and foreground resume. Physical-iPhone hands-on acceptance and broader controller testing remain open.",
+          "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.2/PaperPad-v0.1.0-preview.2-unsigned.ipa",
+          "size": 11605609,
+          "sha256": "ea908c33fce6ba883acadff3ccc3025a1a7ef0284947c09cf98f3602af84d029",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/paperpad/74b6e45830a06c7f274c5ac1ddd7c625bc13a557/docs/release-audit/28-paperpad-flying-goomba-battle-2026-08-14.png",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "CaesarPad",
+      "bundleIdentifier": "com.chrissotraidis.caesarpad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Caesar III through Augustus, designed for iPad",
+      "localizedDescription": "Caesar III through the Augustus engine, adapted for iPad with direct touch, interface scaling, map gestures and game-folder import.\n\nRequires files from your own legally purchased Caesar III copy. No game data is included. This is an iPad-focused developer preview; iPhone use is not validated even though the package declares both device families.\n\nSetup and support: https://github.com/chrissotraidis/caesarpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/caesarpad/5a00d54e10577961887b67f9825aeef19aa1c06d/assets/ios/AppIcon.png",
+      "tintColor": "#8B5A2B",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "marketingVersion": "0.1.0 Preview 1",
+          "date": "2026-08-18T16:04:07Z",
+          "localizedDescription": "First public preview, including the game-folder importer fix. Supply your own Caesar III files after installation.",
+          "downloadURL": "https://github.com/chrissotraidis/caesarpad/releases/download/v0.1.0-preview.1/CaesarPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 24309119,
+          "sha256": "89e9d49f168a46206f718c02bc5abc1daff2e77543d7e576cba1bc7faa36e9fc",
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/caesarpad/5a00d54e10577961887b67f9825aeef19aa1c06d/docs/readme/caesarpad-gameplay.jpg",
+            "width": 2048,
+            "height": 1535
+          }
+        ]
+      }
+    },
+    {
+      "name": "DinoPad",
+      "bundleIdentifier": "com.chrissotraidis.dinopad",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Dinosaur Planet: Prototype Mode",
+      "localizedDescription": "The December 2000 Dinosaur Planet prototype on iPhone and iPad, built on Dinosaur Planet: Recompiled with ROM import, Metal rendering, touch controls and controller support.\n\nRequires your own supported unmodified 64 MiB prototype ROM. This public release contains Prototype Mode only. DinoMod Enhanced and Restored Adventure are not included, and no ROM is supplied.\n\nSetup and support: https://github.com/chrissotraidis/dinopad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/dinopad/535ce8199071f172dc56474bb1e4cff27566983c/apple/app/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#398267",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "buildVersion": "3",
+          "marketingVersion": "0.1.2",
+          "date": "2026-08-19T15:48:54Z",
+          "localizedDescription": "Version 0.1.2 improves Prototype Mode ROM-import guidance, adds optional touch Z targeting lock and fixes second-session zoom/crop. Restored Adventure is not bundled.",
+          "downloadURL": "https://github.com/chrissotraidis/dinopad/releases/download/v0.1.2/DinoPad-0.1.2-prototype-only-unsigned.ipa",
+          "size": 13429076,
+          "sha256": "9efb91b2f71f8fbaff67ba8f3fd262c8013a0be7358aed47d00d5dab65cb7c04",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Bellpad",
+      "bundleIdentifier": "dev.bellpad.app",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Animal Crossing for iPhone and iPad",
+      "localizedDescription": "Animal Crossing for Nintendo GameCube adapted for iPhone and iPad as a native source port, with Metal rendering, touch controls, Files-based game-image import and Dolphin-compatible saves.\n\nRequires your own supported original US revision 0 GAFE01 ISO/GCM. No game image or extracted assets are included. This is an experimental developer preview.\n\nSetup and support: https://github.com/chrissotraidis/bellpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/bellpad/c2bcbdedb1aa9b512c41f4a213716d1e085fb446/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#65A765",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "2",
+          "marketingVersion": "0.1.0 Preview 2",
+          "date": "2026-08-18T18:01:37Z",
+          "localizedDescription": "Preview 2 improves SDL3 controller ownership after sleep, disconnect and foreground resume. Broader hardware controller acceptance remains open.",
+          "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.2/Bellpad-0.1.0-preview.2-unsigned.ipa",
+          "size": 14136986,
+          "sha256": "d9e9ebd5d17fa360de1775cf60deaccd8ca5b196b09842ea633a8ad353a8aaea",
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/bellpad/c2bcbdedb1aa9b512c41f4a213716d1e085fb446/docs/readme/bellpad-town.png",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "PeonPad",
+      "bundleIdentifier": "org.peonpad.ios",
+      "developerName": "Chris Sotraidis",
+      "subtitle": "Warcraft II through Stratagus on iPad",
+      "localizedDescription": "Warcraft II on iPad through Stratagus and Wargus, with Metal-backed rendering and touch gestures for classic real-time strategy controls. iPad only.\n\nRequires a complete data.Wargus folder extracted from your own Warcraft II copy on a computer. Copy it to PeonPad's Documents folder through Files or Finder. Game data is not included, and this developer preview has no in-app content importer.\n\nSetup and support: https://github.com/chrissotraidis/peonpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/peonpad/ca8bceccaa178eb8d4d8308067d3bbcc038df197/platform/apple/ios/PeonPadAssets.xcassets/AppIcon.appiconset/PeonPadIcon.png",
+      "tintColor": "#1F6F78",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "4",
+          "marketingVersion": "0.1.0 Preview 1",
+          "date": "2026-08-18T17:13:19Z",
+          "localizedDescription": "First public data-free IPA, with Files-visible game-folder discovery and missing-data guidance. Requires a separately prepared data.Wargus folder.",
+          "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.0-preview.1/PeonPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 3446924,
+          "sha256": "919f98a0e818790260733f7ea2903c74dc323a767ae804ba91b28b67f4b86163",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/peonpad/ca8bceccaa178eb8d4d8308067d3bbcc038df197/docs/assets/screenshots/ipad-skirmish.png",
+            "width": 1600,
+            "height": 1199
+          }
+        ]
+      }
+    }
+  ],
+  "news": []
+}

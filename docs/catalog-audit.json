@@ -1,0 +1,740 @@
+{
+  "checkedAt": "2026-09-17T08:02:02.324018+00:00",
+  "sourceURL": "https://raw.githubusercontent.com/chrissotraidis/altstore/main/source.json",
+  "scope": "Public GitHub release download and catalog metadata verification; not an AltStore install, device gameplay test, or rights clearance.",
+  "apps": [
+    {
+      "repository": "https://github.com/chrissotraidis/kartpad",
+      "name": "KartPad",
+      "readmeCommit": "7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea",
+      "readmeURL": "https://github.com/chrissotraidis/kartpad/blob/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/kartpad/releases/tag/v0.4.24-ios.1",
+      "tag": "v0.4.24-ios.1",
+      "prerelease": false,
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
+      "sha256": "1d2a5468aeec159330be142a7e3bf712e1957393931958b2278eb4b5964ef1cb",
+      "githubDigest": "sha256:1d2a5468aeec159330be142a7e3bf712e1957393931958b2278eb4b5964ef1cb",
+      "size": 40889948,
+      "bundleIdentifier": "dev.kartpad.app",
+      "version": "0.4.24",
+      "buildVersion": "49",
+      "minimumOS": "16.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "16.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
+        }
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/KartPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/branding/exports/KartPadIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/docs/images/kartpad-dk-summit-ipad.png",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Current regular iOS release. Newer v0.4.25-diagnostics.2-ios is an optional diagnostic build for existing reports and is deliberately excluded.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/harkinianpad",
+      "name": "HarkinianPad",
+      "readmeCommit": "c5963066e888d45e71c16cb63bba1f9cc9329639",
+      "readmeURL": "https://github.com/chrissotraidis/harkinianpad/blob/c5963066e888d45e71c16cb63bba1f9cc9329639/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/harkinianpad/releases/tag/v0.1.0-preview.5",
+      "tag": "v0.1.0-preview.5",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.5/HarkinianPad-0.1.0-preview.5-unsigned.ipa",
+      "sha256": "f505c0837a984f881d158ef3524f53d476a778e6351afabff49b611bbf47cef2",
+      "githubDigest": "sha256:f505c0837a984f881d158ef3524f53d476a778e6351afabff49b611bbf47cef2",
+      "size": 30823149,
+      "bundleIdentifier": "com.chrissotraidis.harkinianpad",
+      "version": "0.1.0",
+      "buildVersion": "5",
+      "minimumOS": "14.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "14.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/HarkinianPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/c5963066e888d45e71c16cb63bba1f9cc9329639/assets/AppIcon.appiconset/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/c5963066e888d45e71c16cb63bba1f9cc9329639/docs/readme/harkinianpad-gameplay.jpg",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published developer-preview IPA.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/goldenpad",
+      "name": "GoldenPad",
+      "readmeCommit": "20e352efccf60fccf390165e6c7382e9df33ecd3",
+      "readmeURL": "https://github.com/chrissotraidis/goldenpad/blob/20e352efccf60fccf390165e6c7382e9df33ecd3/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/goldenpad/releases/tag/v0.1.0-preview.9",
+      "tag": "v0.1.0-preview.9",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/goldenpad/releases/download/v0.1.0-preview.9/GoldenPad-0.1.0-preview.9-unsigned.ipa",
+      "sha256": "d5590251259f503093560ce2dbc7c1dd14d9e487eb52cd36c3aae39dda234a41",
+      "githubDigest": "sha256:d5590251259f503093560ce2dbc7c1dd14d9e487eb52cd36c3aae39dda234a41",
+      "size": 7098161,
+      "bundleIdentifier": "com.chrissotraidis.goldenpad.recomp-prototype",
+      "version": "0.1.0",
+      "buildVersion": "9",
+      "minimumOS": "17.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "17.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "GoldenPad uses your local network to discover and connect to nearby LAN Netplay Lab rooms."
+        }
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/GoldenPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/docs/images/goldenpad-rt64-bunker-ipad.jpg",
+        "width": 1600,
+        "height": 1199
+      },
+      "selectionReason": "Latest published iOS preview. Uses the package's actual recomp-prototype bundle identifier; no multiplayer-readiness claim.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/sunpad",
+      "name": "SunPad",
+      "readmeCommit": "69a16ec8b5d4eba00c7a5cbd64382f7f1731608f",
+      "readmeURL": "https://github.com/chrissotraidis/sunpad/blob/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/sunpad/releases/tag/v0.1.0-preview.13",
+      "tag": "v0.1.0-preview.13",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-unsigned.ipa",
+      "sha256": "1c2c99c3dfac263db67754be1d7a3b17df606e4060568c06d38183b6cad2f83b",
+      "githubDigest": "sha256:1c2c99c3dfac263db67754be1d7a3b17df606e4060568c06d38183b6cad2f83b",
+      "size": 26926655,
+      "bundleIdentifier": "com.sunpad.SunPad",
+      "version": "0.1.0",
+      "buildVersion": "13",
+      "minimumOS": "16.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "16.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/SunPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/SunPad.app/gGMSE01_recomp.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/docs/readme/sunpad-delfino-plaza.jpg",
+        "width": 1800,
+        "height": 1349
+      },
+      "selectionReason": "iPhone/iPad Preview 13, excluding the tvOS IPA. Classic must sign the root-level gGMSE01_recomp.dylib as well as the app; install and launch through Classic remain unverified.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/spaghettipad",
+      "name": "SpaghettiPad",
+      "readmeCommit": "052794580d54d442e95fb2c62d2d3b378b77e5f2",
+      "readmeURL": "https://github.com/chrissotraidis/spaghettipad/blob/052794580d54d442e95fb2c62d2d3b378b77e5f2/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/spaghettipad/releases/tag/v0.1.0-preview.6",
+      "tag": "v0.1.0-preview.6",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.6/SpaghettiPad-0.1.0-preview.6-unsigned.ipa",
+      "sha256": "a746fafe4dac460c5427acb81a361eb5f560df45a0550cd39f4a545977c4c0bb",
+      "githubDigest": "sha256:a746fafe4dac460c5427acb81a361eb5f560df45a0550cd39f4a545977c4c0bb",
+      "size": 9395403,
+      "bundleIdentifier": "com.chrissotraidis.spaghettipad",
+      "version": "0.1.0",
+      "buildVersion": "6",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "15.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/SpaghettiPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/spaghettipad/052794580d54d442e95fb2c62d2d3b378b77e5f2/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/spaghettipad/052794580d54d442e95fb2c62d2d3b378b77e5f2/docs/screenshots/ipad-race-highway.jpg",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published developer-preview IPA.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/utp",
+      "name": "UTP",
+      "readmeCommit": "05e63ca873a646eb91d83b9ab246e22efdb4f59f",
+      "readmeURL": "https://github.com/chrissotraidis/utp/blob/05e63ca873a646eb91d83b9ab246e22efdb4f59f/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-preview.3",
+      "tag": "v0.1.0-preview.3",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/utp/releases/download/v0.1.0-preview.3/UTP-0.1.0-preview.3-unsigned.ipa",
+      "sha256": "fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
+      "githubDigest": "sha256:fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
+      "size": 10359408,
+      "bundleIdentifier": "com.ut99apple.client",
+      "version": "0.1.0",
+      "buildVersion": "3",
+      "minimumOS": "17.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "17.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "UT99 uses the local network for LAN games and direct server connections."
+        }
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/UT99Apple.app",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libxmp.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libsndfile.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UT99CoreServicesShim.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UnrealTournament.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libmpg123.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UT99ApplicationServicesShim.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libSDL2.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libfmod.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/libopenal.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UT99DesktopShim.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UT99CocoaShim.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        },
+        {
+          "bundle": "Payload/UT99Apple.app/Frameworks/UT99MetalShim.dylib",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/utp/05e63ca873a646eb91d83b9ab246e22efdb4f59f/Sources/UT99Host/Assets.xcassets/AppIcon.appiconset/UTP-AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/utp/05e63ca873a646eb91d83b9ab246e22efdb4f59f/docs/readme/utp-gameplay-flak-cannon.png",
+        "width": 1920,
+        "height": 1439
+      },
+      "selectionReason": "Preview 3 is the regular public preview. The newer issue-6-test.1 iOS 15 compatibility candidate explicitly does not replace it.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/brawlerpad",
+      "name": "BrawlerPad",
+      "readmeCommit": "f6cb51bc114a6cf85a9d4bcb7c91914808319f56",
+      "readmeURL": "https://github.com/chrissotraidis/brawlerpad/blob/f6cb51bc114a6cf85a9d4bcb7c91914808319f56/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/brawlerpad/releases/tag/v0.1.0-preview.2",
+      "tag": "v0.1.0-preview.2",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/brawlerpad/releases/download/v0.1.0-preview.2/BrawlerPad-0.1.0-preview.2-unsigned.ipa",
+      "sha256": "67795d4f8a07641dde7d89102617c328bb3ea3aaa82f365efe544084fd2ea880",
+      "githubDigest": "sha256:67795d4f8a07641dde7d89102617c328bb3ea3aaa82f365efe544084fd2ea880",
+      "size": 7087025,
+      "bundleIdentifier": "com.brawlerpad.app",
+      "version": "0.1.0",
+      "buildVersion": "2",
+      "minimumOS": "17.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "17.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/BrawlerPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/brawlerpad/f6cb51bc114a6cf85a9d4bcb7c91914808319f56/assets/ios/BrawlerPad.xcassets/AppIcon.appiconset/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/brawlerpad/f6cb51bc114a6cf85a9d4bcb7c91914808319f56/docs/readme/brawlerpad-yoshi-battle.jpg",
+        "width": 1600,
+        "height": 1199
+      },
+      "selectionReason": "Latest published developer-preview IPA.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/maskpad",
+      "name": "MaskPad",
+      "readmeCommit": "34da600f75536182d086018cf70302874d57ce54",
+      "readmeURL": "https://github.com/chrissotraidis/maskpad/blob/34da600f75536182d086018cf70302874d57ce54/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/maskpad/releases/tag/v0.1.2",
+      "tag": "v0.1.2",
+      "prerelease": false,
+      "downloadURL": "https://github.com/chrissotraidis/maskpad/releases/download/v0.1.2/MaskPad-0.1.2-unsigned.ipa",
+      "sha256": "5249be1d4036cb0104e30b28927502a3664ba86ccfa2d31579459c86e0af19f6",
+      "githubDigest": "sha256:5249be1d4036cb0104e30b28927502a3664ba86ccfa2d31579459c86e0af19f6",
+      "size": 17511550,
+      "bundleIdentifier": "com.chrissotraidis.maskpad",
+      "version": "0.1.2",
+      "buildVersion": "3",
+      "minimumOS": "14.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "14.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/MaskPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/maskpad/34da600f75536182d086018cf70302874d57ce54/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/maskpad/34da600f75536182d086018cf70302874d57ce54/docs/readme/maskpad-hero-ipad.jpg",
+        "width": 1600,
+        "height": 1199
+      },
+      "selectionReason": "Latest published release; version 0.1.2, build 3.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/starshippad",
+      "name": "StarshipPad",
+      "readmeCommit": "85264ad4e58b9556e917e813c34a73dbebcf58b9",
+      "readmeURL": "https://github.com/chrissotraidis/starshippad/blob/85264ad4e58b9556e917e813c34a73dbebcf58b9/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/starshippad/releases/tag/v0.1.0-preview.5",
+      "tag": "v0.1.0-preview.5",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/starshippad/releases/download/v0.1.0-preview.5/StarshipPad-v0.1.0-preview.5-unsigned.ipa",
+      "sha256": "a57ed4bd149e8cfaf791b620681c69aeb32371d79d7242c18845832c65b57892",
+      "githubDigest": "sha256:a57ed4bd149e8cfaf791b620681c69aeb32371d79d7242c18845832c65b57892",
+      "size": 6869652,
+      "bundleIdentifier": "com.chrissotraidis.starshippad",
+      "version": "0.1.0",
+      "buildVersion": "5",
+      "minimumOS": "16.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "16.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/StarshipPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/starshippad/85264ad4e58b9556e917e813c34a73dbebcf58b9/ios-assets/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/starshippad/85264ad4e58b9556e917e813c34a73dbebcf58b9/docs/readme/starshippad-hero.jpg",
+        "width": 1800,
+        "height": 1349
+      },
+      "selectionReason": "Latest published developer-preview IPA. The repository's hero screenshot is explicitly a Simulator capture.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/paperpad",
+      "name": "PaperPad",
+      "readmeCommit": "74b6e45830a06c7f274c5ac1ddd7c625bc13a557",
+      "readmeURL": "https://github.com/chrissotraidis/paperpad/blob/74b6e45830a06c7f274c5ac1ddd7c625bc13a557/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/paperpad/releases/tag/v0.1.0-preview.2",
+      "tag": "v0.1.0-preview.2",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.2/PaperPad-v0.1.0-preview.2-unsigned.ipa",
+      "sha256": "ea908c33fce6ba883acadff3ccc3025a1a7ef0284947c09cf98f3602af84d029",
+      "githubDigest": "sha256:ea908c33fce6ba883acadff3ccc3025a1a7ef0284947c09cf98f3602af84d029",
+      "size": 11605609,
+      "bundleIdentifier": "com.chrissotraidis.paperpad",
+      "version": "0.1.0",
+      "buildVersion": "2",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "15.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/PaperPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/paperpad/74b6e45830a06c7f274c5ac1ddd7c625bc13a557/apple/app/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/paperpad/74b6e45830a06c7f274c5ac1ddd7c625bc13a557/docs/release-audit/28-paperpad-flying-goomba-battle-2026-08-14.png",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published developer-preview IPA.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/caesarpad",
+      "name": "CaesarPad",
+      "readmeCommit": "5a00d54e10577961887b67f9825aeef19aa1c06d",
+      "readmeURL": "https://github.com/chrissotraidis/caesarpad/blob/5a00d54e10577961887b67f9825aeef19aa1c06d/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1",
+      "tag": "v0.1.0-preview.1",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/caesarpad/releases/download/v0.1.0-preview.1/CaesarPad-0.1.0-preview.1-unsigned.ipa",
+      "sha256": "89e9d49f168a46206f718c02bc5abc1daff2e77543d7e576cba1bc7faa36e9fc",
+      "githubDigest": "sha256:89e9d49f168a46206f718c02bc5abc1daff2e77543d7e576cba1bc7faa36e9fc",
+      "size": 24309119,
+      "bundleIdentifier": "com.chrissotraidis.caesarpad",
+      "version": "0.1.0",
+      "buildVersion": "1",
+      "minimumOS": "14.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "14.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/CaesarPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/caesarpad/5a00d54e10577961887b67f9825aeef19aa1c06d/assets/ios/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/caesarpad/5a00d54e10577961887b67f9825aeef19aa1c06d/docs/readme/caesarpad-gameplay.jpg",
+        "width": 2048,
+        "height": 1535
+      },
+      "selectionReason": "Latest published IPA. Product is iPad-focused; package declares iPhone and iPad. Do not change its bundle metadata merely to make the catalog look iPad-only.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/dinopad",
+      "name": "DinoPad",
+      "readmeCommit": "535ce8199071f172dc56474bb1e4cff27566983c",
+      "readmeURL": "https://github.com/chrissotraidis/dinopad/blob/535ce8199071f172dc56474bb1e4cff27566983c/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/dinopad/releases/tag/v0.1.2",
+      "tag": "v0.1.2",
+      "prerelease": false,
+      "downloadURL": "https://github.com/chrissotraidis/dinopad/releases/download/v0.1.2/DinoPad-0.1.2-prototype-only-unsigned.ipa",
+      "sha256": "9efb91b2f71f8fbaff67ba8f3fd262c8013a0be7358aed47d00d5dab65cb7c04",
+      "githubDigest": "sha256:9efb91b2f71f8fbaff67ba8f3fd262c8013a0be7358aed47d00d5dab65cb7c04",
+      "size": 13429076,
+      "bundleIdentifier": "com.chrissotraidis.dinopad",
+      "version": "0.1.2",
+      "buildVersion": "3",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "15.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/DinoPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/dinopad/535ce8199071f172dc56474bb1e4cff27566983c/apple/app/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": null,
+      "selectionReason": "Latest public Prototype Mode IPA. No screenshots selected: the README hero shows the private Restored Adventure mode, which would misrepresent this download.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/bellpad",
+      "name": "Bellpad",
+      "readmeCommit": "c2bcbdedb1aa9b512c41f4a213716d1e085fb446",
+      "readmeURL": "https://github.com/chrissotraidis/bellpad/blob/c2bcbdedb1aa9b512c41f4a213716d1e085fb446/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/bellpad/releases/tag/v0.1.0-preview.2",
+      "tag": "v0.1.0-preview.2",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.2/Bellpad-0.1.0-preview.2-unsigned.ipa",
+      "sha256": "d9e9ebd5d17fa360de1775cf60deaccd8ca5b196b09842ea633a8ad353a8aaea",
+      "githubDigest": "sha256:d9e9ebd5d17fa360de1775cf60deaccd8ca5b196b09842ea633a8ad353a8aaea",
+      "size": 14136986,
+      "bundleIdentifier": "dev.bellpad.app",
+      "version": "0.1.0",
+      "buildVersion": "2",
+      "minimumOS": "17.0",
+      "minimumOSOrigin": "Mach-O LC_BUILD_VERSION",
+      "binaryMinimumOS": "17.0",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/Bellpad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/bellpad/c2bcbdedb1aa9b512c41f4a213716d1e085fb446/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/bellpad/c2bcbdedb1aa9b512c41f4a213716d1e085fb446/docs/readme/bellpad-town.png",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published developer-preview IPA. README and app both spell the name Bellpad. Info.plist omits MinimumOSVersion; iOS 17.0 was verified from the executable's LC_BUILD_VERSION.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/peonpad",
+      "name": "PeonPad",
+      "readmeCommit": "ca8bceccaa178eb8d4d8308067d3bbcc038df197",
+      "readmeURL": "https://github.com/chrissotraidis/peonpad/blob/ca8bceccaa178eb8d4d8308067d3bbcc038df197/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1",
+      "tag": "v0.1.0-preview.1",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/peonpad/releases/download/v0.1.0-preview.1/PeonPad-0.1.0-preview.1-unsigned.ipa",
+      "sha256": "919f98a0e818790260733f7ea2903c74dc323a767ae804ba91b28b67f4b86163",
+      "githubDigest": "sha256:919f98a0e818790260733f7ea2903c74dc323a767ae804ba91b28b67f4b86163",
+      "size": 3446924,
+      "bundleIdentifier": "org.peonpad.ios",
+      "version": "0.1.0",
+      "buildVersion": "4",
+      "minimumOS": "16.0",
+      "minimumOSOrigin": "Info.plist",
+      "binaryMinimumOS": "16.0",
+      "deviceFamilies": [
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/PeonPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/peonpad/ca8bceccaa178eb8d4d8308067d3bbcc038df197/platform/apple/ios/PeonPadAssets.xcassets/AppIcon.appiconset/PeonPadIcon.png",
+        "width": 1024,
+        "height": 1024
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/peonpad/ca8bceccaa178eb8d4d8308067d3bbcc038df197/docs/assets/screenshots/ipad-skirmish.png",
+        "width": 1600,
+        "height": 1199
+      },
+      "selectionReason": "Latest public preview. The release is Preview 1 but the actual CFBundleVersion is 4; catalog uses build 4. Device family is iPad only.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed"
+    }
+  ],
+  "pending": [
+    {
+      "repository": "https://github.com/chrissotraidis/deviltouch",
+      "name": "DevilTouch",
+      "subtitle": "Diablo and Hellfire through DevilutionX on iPad",
+      "description": "DevilutionX adapted for iPad with direct touch movement and targeting, native Files import, and keyboard, trackpad and mouse support. Requires your own Diablo data; Hellfire content is optional. Source-only developer preview: a public IPA must be built and released before it can be included in the installable source.",
+      "selection": "No published IPA. Keep out of source.json until a separately approved app release exists."
+    }
+  ]
+}
