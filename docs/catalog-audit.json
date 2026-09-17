@@ -48,9 +48,15 @@
         "width": 2732,
         "height": 2048
       },
-      "selectionReason": "Current regular iOS release. Newer v0.4.25-diagnostics.2-ios is an optional diagnostic build for existing reports and is deliberately excluded.",
+      "selectionReason": "Maintainer requested yesterday's release unless clearly experimental. Selected v0.4.24-ios.1, build 49, published 2026-09-16. Newer v0.4.25-diagnostics.2-ios, build 51, published 2026-09-17, is explicitly a diagnostic preview with extra checks/timing and unvalidated performance.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.4.25-diagnostics.2-ios",
+        "publishedAt": "2026-09-17T01:06:47Z",
+        "releaseURL": "https://github.com/chrissotraidis/kartpad/releases/tag/v0.4.25-diagnostics.2-ios"
+      },
+      "releaseReviewStatus": "Latest non-diagnostic iOS release selected under the maintainer instruction to exclude clearly experimental builds."
     },
     {
       "repository": "https://github.com/chrissotraidis/harkinianpad",
@@ -97,7 +103,13 @@
       },
       "selectionReason": "Latest published developer-preview IPA.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.5",
+        "publishedAt": "2026-08-18T15:52:22Z",
+        "releaseURL": "https://github.com/chrissotraidis/harkinianpad/releases/tag/v0.1.0-preview.5"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/goldenpad",
@@ -146,7 +158,13 @@
       },
       "selectionReason": "Latest published iOS preview. Uses the package's actual recomp-prototype bundle identifier; no multiplayer-readiness claim.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.9",
+        "publishedAt": "2026-09-17T01:55:54Z",
+        "releaseURL": "https://github.com/chrissotraidis/goldenpad/releases/tag/v0.1.0-preview.9"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/sunpad",
@@ -196,9 +214,15 @@
         "width": 1800,
         "height": 1349
       },
-      "selectionReason": "iPhone/iPad Preview 13, excluding the tvOS IPA. Classic must sign the root-level gGMSE01_recomp.dylib as well as the app; install and launch through Classic remain unverified.",
+      "selectionReason": "Latest iPhone/iPad Preview 13, excluding the tvOS IPA. Keep the existing unsigned package. Re-signing must cover the app and gGMSE01_recomp.dylib during installation; this catalog change does not require a new SunPad build. Classic install/launch is pending.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.13",
+        "publishedAt": "2026-09-14T05:20:42Z",
+        "releaseURL": "https://github.com/chrissotraidis/sunpad/releases/tag/v0.1.0-preview.13"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/spaghettipad",
@@ -245,26 +269,32 @@
       },
       "selectionReason": "Latest published developer-preview IPA.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.6",
+        "publishedAt": "2026-09-15T10:28:51Z",
+        "releaseURL": "https://github.com/chrissotraidis/spaghettipad/releases/tag/v0.1.0-preview.6"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/utp",
       "name": "UTP",
       "readmeCommit": "05e63ca873a646eb91d83b9ab246e22efdb4f59f",
       "readmeURL": "https://github.com/chrissotraidis/utp/blob/05e63ca873a646eb91d83b9ab246e22efdb4f59f/README.md",
-      "releaseURL": "https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-preview.3",
-      "tag": "v0.1.0-preview.3",
+      "releaseURL": "https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-issue-6-test.1",
+      "tag": "v0.1.0-issue-6-test.1",
       "prerelease": true,
-      "downloadURL": "https://github.com/chrissotraidis/utp/releases/download/v0.1.0-preview.3/UTP-0.1.0-preview.3-unsigned.ipa",
-      "sha256": "fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
-      "githubDigest": "sha256:fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
-      "size": 10359408,
+      "downloadURL": "https://github.com/chrissotraidis/utp/releases/download/v0.1.0-issue-6-test.1/UTP-0.1.0-issue-6-test.1-unsigned.ipa",
+      "sha256": "23ee6ed506c812d42cfa9988ab5d45d2ec4a97be07a1d29accf40b2e34217676",
+      "githubDigest": "sha256:23ee6ed506c812d42cfa9988ab5d45d2ec4a97be07a1d29accf40b2e34217676",
+      "size": 10367712,
       "bundleIdentifier": "com.ut99apple.client",
       "version": "0.1.0",
       "buildVersion": "3",
-      "minimumOS": "17.0",
+      "minimumOS": "15.0",
       "minimumOSOrigin": "Info.plist",
-      "binaryMinimumOS": "17.0",
+      "binaryMinimumOS": "15.0",
       "deviceFamilies": [
         1,
         2
@@ -352,9 +382,28 @@
         "width": 1920,
         "height": 1439
       },
-      "selectionReason": "Preview 3 is the regular public preview. The newer issue-6-test.1 iOS 15 compatibility candidate explicitly does not replace it.",
+      "selectionReason": "Maintainer explicitly selected the newest published IPA and reported that it works. The GitHub release remains named Issue #6 iOS 15 Compatibility Test 1 and marked prerelease; the catalog does not alter those upstream release records.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-issue-6-test.1",
+        "publishedAt": "2026-09-01T21:59:01Z",
+        "releaseURL": "https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-issue-6-test.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected.",
+      "previousSelection": {
+        "releaseURL": "https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-preview.3",
+        "tag": "v0.1.0-preview.3",
+        "downloadURL": "https://github.com/chrissotraidis/utp/releases/download/v0.1.0-preview.3/UTP-0.1.0-preview.3-unsigned.ipa",
+        "sha256": "fb7876fd4d1916889d9050b6173c483aaed38957220811ce5832804b366efbae",
+        "size": 10359408,
+        "version": "0.1.0",
+        "buildVersion": "3",
+        "minimumOS": "17.0"
+      },
+      "packageVerifiedAt": "2026-09-17T08:36:51.749754+00:00",
+      "updateDetection": "Same version 0.1.0 and build 3 as the previous selected IPA. Replaced the selected download rather than adding a duplicate version/build entry. New installs receive this file; automatic version-based update detection from Preview 3 requires a future IPA with a new internal build/version.",
+      "maintainerAcceptance": "Maintainer reports latest UTP works and requests it for the source. Exact Classic source install/update test remains unperformed here."
     },
     {
       "repository": "https://github.com/chrissotraidis/brawlerpad",
@@ -401,7 +450,13 @@
       },
       "selectionReason": "Latest published developer-preview IPA.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.2",
+        "publishedAt": "2026-08-18T18:54:29Z",
+        "releaseURL": "https://github.com/chrissotraidis/brawlerpad/releases/tag/v0.1.0-preview.2"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/maskpad",
@@ -448,7 +503,13 @@
       },
       "selectionReason": "Latest published release; version 0.1.2, build 3.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.2",
+        "publishedAt": "2026-08-18T17:08:21Z",
+        "releaseURL": "https://github.com/chrissotraidis/maskpad/releases/tag/v0.1.2"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/starshippad",
@@ -495,7 +556,13 @@
       },
       "selectionReason": "Latest published developer-preview IPA. The repository's hero screenshot is explicitly a Simulator capture.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.5",
+        "publishedAt": "2026-08-18T16:40:29Z",
+        "releaseURL": "https://github.com/chrissotraidis/starshippad/releases/tag/v0.1.0-preview.5"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/paperpad",
@@ -542,7 +609,13 @@
       },
       "selectionReason": "Latest published developer-preview IPA.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.2",
+        "publishedAt": "2026-08-16T08:10:41Z",
+        "releaseURL": "https://github.com/chrissotraidis/paperpad/releases/tag/v0.1.0-preview.2"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/caesarpad",
@@ -589,7 +662,13 @@
       },
       "selectionReason": "Latest published IPA. Product is iPad-focused; package declares iPhone and iPad. Do not change its bundle metadata merely to make the catalog look iPad-only.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.1",
+        "publishedAt": "2026-08-18T16:04:07Z",
+        "releaseURL": "https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/dinopad",
@@ -630,9 +709,16 @@
         "height": 1024
       },
       "screenshot": null,
-      "selectionReason": "Latest public Prototype Mode IPA. No screenshots selected: the README hero shows the private Restored Adventure mode, which would misrepresent this download.",
+      "selectionReason": "Latest published release v0.1.2, accepted as ready for the catalog by the maintainer. Prototype Mode identifies the original Dinosaur Planet game content, not the readiness of DinoPad. The public artifact excludes Restored Adventure; its private-mode screenshots are not used.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.2",
+        "publishedAt": "2026-08-19T15:48:54Z",
+        "releaseURL": "https://github.com/chrissotraidis/dinopad/releases/tag/v0.1.2"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected.",
+      "maintainerAcceptance": "Maintainer explicitly confirms DinoPad is ready to publish."
     },
     {
       "repository": "https://github.com/chrissotraidis/bellpad",
@@ -679,7 +765,13 @@
       },
       "selectionReason": "Latest published developer-preview IPA. README and app both spell the name Bellpad. Info.plist omits MinimumOSVersion; iOS 17.0 was verified from the executable's LC_BUILD_VERSION.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.2",
+        "publishedAt": "2026-08-18T18:01:37Z",
+        "releaseURL": "https://github.com/chrissotraidis/bellpad/releases/tag/v0.1.0-preview.2"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     },
     {
       "repository": "https://github.com/chrissotraidis/peonpad",
@@ -725,7 +817,13 @@
       },
       "selectionReason": "Latest public preview. The release is Preview 1 but the actual CFBundleVersion is 4; catalog uses build 4. Device family is iPad only.",
       "classicInstallTest": "pending",
-      "gameplayTestThisAudit": "not performed"
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.1",
+        "publishedAt": "2026-08-18T17:13:19Z",
+        "releaseURL": "https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     }
   ],
   "pending": [
@@ -733,8 +831,10 @@
       "repository": "https://github.com/chrissotraidis/deviltouch",
       "name": "DevilTouch",
       "subtitle": "Diablo and Hellfire through DevilutionX on iPad",
-      "description": "DevilutionX adapted for iPad with direct touch movement and targeting, native Files import, and keyboard, trackpad and mouse support. Requires your own Diablo data; Hellfire content is optional. Source-only developer preview: a public IPA must be built and released before it can be included in the installable source.",
-      "selection": "No published IPA. Keep out of source.json until a separately approved app release exists."
+      "description": "DevilutionX adapted for iPad with direct touch movement and targeting, Files import, and keyboard, trackpad and mouse support. Requires user-supplied Diablo data; Hellfire content is optional. The maintainer is preparing an updated public IPA separately.",
+      "selection": "Awaiting the maintainer's updated IPA. Add only after that release is complete and its package metadata is verified."
     }
-  ]
+  ],
+  "releaseReviewedAt": "2026-09-17T08:36:51.749754+00:00",
+  "displayName": "Kahris' Apps"
 }
