@@ -22,14 +22,11 @@ The catalog's downloads and metadata have been checked. Installation and updates
 
 ## Apps
 
-The catalog uses the latest published iPhone/iPad releases, with KartPad's explicitly diagnostic build excluded. Release labels are retained where applicable; each project documents its known issues.
+The catalog uses the latest published iPhone/iPad releases. Release labels are retained where applicable; each project documents its known issues.
 
 | App | What it is | Selected release | Device / minimum OS |
 | --- | --- | --- | --- |
-| [KartPad](https://github.com/chrissotraidis/kartpad) | Mario Kart Wii for iPhone and iPad | [0.4.24](https://github.com/chrissotraidis/kartpad/releases/tag/v0.4.24-ios.1) | iPhone / iPad; 16.0+ |
 | [HarkinianPad](https://github.com/chrissotraidis/harkinianpad) | Ocarina of Time for iPhone and iPad | [0.1.0 Preview 5](https://github.com/chrissotraidis/harkinianpad/releases/tag/v0.1.0-preview.5) | iPhone / iPad; 14.0+ |
-| [GoldenPad](https://github.com/chrissotraidis/goldenpad) | GoldenEye 007 for iPhone and iPad | [0.1.0 Preview 9](https://github.com/chrissotraidis/goldenpad/releases/tag/v0.1.0-preview.9) | iPhone / iPad; 17.0+ |
-| [SunPad](https://github.com/chrissotraidis/sunpad) | Super Mario Sunshine for iPhone and iPad | [0.1.0 Preview 13](https://github.com/chrissotraidis/sunpad/releases/tag/v0.1.0-preview.13) | iPhone / iPad; 16.0+ |
 | [SpaghettiPad](https://github.com/chrissotraidis/spaghettipad) | Mario Kart 64 for iPhone and iPad | [0.1.0 Preview 6](https://github.com/chrissotraidis/spaghettipad/releases/tag/v0.1.0-preview.6) | iPhone / iPad; 15.0+ |
 | [UTP](https://github.com/chrissotraidis/utp) | Unreal Tournament 99 for iPhone and iPad | [0.1.0 · iOS 15 compatibility](https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-issue-6-test.1) | iPhone / iPad; 15.0+ |
 | [BrawlerPad](https://github.com/chrissotraidis/brawlerpad) | Super Smash Bros. 64 for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/brawlerpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 17.0+ |
@@ -38,13 +35,12 @@ The catalog uses the latest published iPhone/iPad releases, with KartPad's expli
 | [PaperPad](https://github.com/chrissotraidis/paperpad) | Paper Mario for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/paperpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 15.0+ |
 | [DevilTouch](https://github.com/chrissotraidis/deviltouch) | Diablo and Hellfire through DevilutionX on iPad | [1.5.5 Preview 1 · build 2](https://github.com/chrissotraidis/deviltouch/releases/tag/v1.5.5-preview.1) | Designed for iPad; 13.0+ |
 | [CaesarPad](https://github.com/chrissotraidis/caesarpad) | Caesar III through Augustus, designed for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1) | Designed for iPad; 14.0+ |
-| [DinoPad](https://github.com/chrissotraidis/dinopad) | Dinosaur Planet for iPhone and iPad | [0.1.2](https://github.com/chrissotraidis/dinopad/releases/tag/v0.1.2) | iPhone / iPad; 15.0+ |
 | [Bellpad](https://github.com/chrissotraidis/bellpad) | Animal Crossing for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/bellpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 17.0+ |
 | [PeonPad](https://github.com/chrissotraidis/peonpad) | Warcraft II through Stratagus on iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1) | iPad; 16.0+ |
 
-DinoPad 0.1.2 is included in the launch lineup; it plays the original Dinosaur Planet content, without the separate Restored Adventure modifications. CaesarPad and DevilTouch are designed for iPad; their packages also declare iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
+CaesarPad and DevilTouch are designed for iPad; their packages also declare iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
 
-The source's five highlighted apps follow the first five projects in the requested lineup. All 15 available apps remain in the catalog.
+The source highlights HarkinianPad and SpaghettiPad. All 11 listed apps remain in the catalog.
 
 ## Game setup and support
 
@@ -76,7 +72,7 @@ For a new app release, publish and verify the new IPA first, then add its versio
 
 Pushing application code or publishing a GitHub Release does not automatically change this catalog. Conversely, publishing a changed catalog can make a new version available immediately. Test future changes on a separate branch/source URL first.
 
-Icons and screenshots link to pinned commits in the original repositories. Most screenshots are existing iPad captures; StarshipPad's is a Simulator capture. A screenshot of DinoPad's public game mode will be added separately.
+Icons and screenshots link to pinned commits in the original repositories. Most screenshots are existing iPad captures; StarshipPad's is a Simulator capture.
 
 ## Support my work
 

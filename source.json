@@ -6,51 +6,10 @@
   "website": "https://github.com/chrissotraidis/altstore",
   "tintColor": "#0A84FF",
   "featuredApps": [
-    "dev.kartpad.app",
     "com.chrissotraidis.harkinianpad",
-    "com.chrissotraidis.goldenpad.recomp-prototype",
-    "com.sunpad.SunPad",
     "com.chrissotraidis.spaghettipad"
   ],
   "apps": [
-    {
-      "name": "KartPad",
-      "bundleIdentifier": "dev.kartpad.app",
-      "developerName": "Kahris",
-      "subtitle": "Mario Kart Wii for iPhone and iPad",
-      "localizedDescription": "Mario Kart Wii on iPhone and iPad, built on WiiCompiled, with Metal rendering, touch controls, motion steering and controller support. Optional Retro Rewind content is installed separately.\n\nRequires your own supported PAL RMCP01 revision 0 game image. No disc image or Retro Rewind content is included.\n\nSetup and support: https://github.com/chrissotraidis/kartpad#readme",
-      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/branding/exports/KartPadIcon-1024.png",
-      "tintColor": "#FF9F0A",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.4.24",
-          "buildVersion": "49",
-          "marketingVersion": "0.4.24",
-          "date": "2026-09-16T12:37:43Z",
-          "localizedDescription": "Adds aligned mobile settings, Original Time Trial ghost import/export, expanded controller mappings, FPS counter sizing and clearer diagnostic reporting.",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
-          "size": 40889948,
-          "sha256": "1d2a5468aeec159330be142a7e3bf712e1957393931958b2278eb4b5964ef1cb",
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "KartPad connects to your selected private Wii server and other players on your local network."
-        }
-      },
-      "screenshots": {
-        "ipad": [
-          {
-            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/kartpad/7b663a2d2765d3aeae57d49b8cc7bb0f7a5513ea/docs/images/kartpad-dk-summit-ipad.png",
-            "width": 2732,
-            "height": 2048
-          }
-        ]
-      }
-    },
     {
       "name": "HarkinianPad",
       "bundleIdentifier": "com.chrissotraidis.harkinianpad",
@@ -83,80 +42,6 @@
             "imageURL": "https://raw.githubusercontent.com/chrissotraidis/harkinianpad/c5963066e888d45e71c16cb63bba1f9cc9329639/docs/readme/harkinianpad-gameplay.jpg",
             "width": 2732,
             "height": 2048
-          }
-        ]
-      }
-    },
-    {
-      "name": "GoldenPad",
-      "bundleIdentifier": "com.chrissotraidis.goldenpad.recomp-prototype",
-      "developerName": "Kahris",
-      "subtitle": "GoldenEye 007 for iPhone and iPad",
-      "localizedDescription": "GoldenEye 007 on iPhone and iPad, built on GoldenEye64Recomp with RT64 Metal rendering, touch controls and controller support.\n\nImport your own supported original US retail ROM; the app prepares its runtime copy locally. No ROM or extracted retail graphics and audio are included. This is a developer preview.\n\nSetup and support: https://github.com/chrissotraidis/goldenpad#readme",
-      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
-      "tintColor": "#C69C43",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "buildVersion": "9",
-          "marketingVersion": "0.1.0 Preview 9",
-          "date": "2026-09-17T01:55:54Z",
-          "localizedDescription": "Preview 9 rebuilds the Apple apps from pinned maintained dependencies and makes required game-patch selection reliable. This release does not claim to fix unrelated graphics or crash reports.",
-          "downloadURL": "https://github.com/chrissotraidis/goldenpad/releases/download/v0.1.0-preview.9/GoldenPad-0.1.0-preview.9-unsigned.ipa",
-          "size": 7098161,
-          "sha256": "d5590251259f503093560ce2dbc7c1dd14d9e487eb52cd36c3aae39dda234a41",
-          "minOSVersion": "17.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSLocalNetworkUsageDescription": "GoldenPad uses your local network to discover and connect to nearby LAN Netplay Lab rooms."
-        }
-      },
-      "screenshots": {
-        "ipad": [
-          {
-            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/goldenpad/20e352efccf60fccf390165e6c7382e9df33ecd3/docs/images/goldenpad-rt64-bunker-ipad.jpg",
-            "width": 1600,
-            "height": 1199
-          }
-        ]
-      }
-    },
-    {
-      "name": "SunPad",
-      "bundleIdentifier": "com.sunpad.SunPad",
-      "developerName": "Kahris",
-      "subtitle": "Super Mario Sunshine for iPhone and iPad",
-      "localizedDescription": "Super Mario Sunshine on iPhone and iPad through ahead-of-time recompilation and a Dolphin-derived runtime, built with ModernGekko and DolRecomp. Includes Metal rendering, touch controls and controller support.\n\nRequires your own supported GMSE01 USA revision 0 ISO/GCM. No game image or extracted game assets are included. Experimental preview; Original 30 FPS is the supported default, and performance varies by device.\n\nSetup and support: https://github.com/chrissotraidis/sunpad#readme",
-      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
-      "tintColor": "#FFB340",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.1.0",
-          "buildVersion": "13",
-          "marketingVersion": "0.1.0 Preview 13",
-          "date": "2026-09-14T05:20:42Z",
-          "localizedDescription": "Preview 13 rebuilds from maintained forks with pinned dependencies, source notices and provenance records. No new gameplay feature or performance improvement is claimed.",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-unsigned.ipa",
-          "size": 26926655,
-          "sha256": "1c2c99c3dfac263db67754be1d7a3b17df606e4060568c06d38183b6cad2f83b",
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "screenshots": {
-        "ipad": [
-          {
-            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/sunpad/69a16ec8b5d4eba00c7a5cbd64382f7f1731608f/docs/readme/sunpad-delfino-plaza.jpg",
-            "width": 1800,
-            "height": 1349
           }
         ]
       }
@@ -449,33 +334,6 @@
             "height": 1535
           }
         ]
-      }
-    },
-    {
-      "name": "DinoPad",
-      "bundleIdentifier": "com.chrissotraidis.dinopad",
-      "developerName": "Kahris",
-      "subtitle": "Dinosaur Planet for iPhone and iPad",
-      "localizedDescription": "Dinosaur Planet on iPhone and iPad, built on Dinosaur Planet: Recompiled with Metal rendering, ROM import, touch controls and controller support.\n\nRequires your own supported unmodified 64 MiB December 2000 Dinosaur Planet ROM. The public download plays the original game content; the separate DinoMod Enhanced / Restored Adventure modifications are not bundled. No ROM is included.\n\nSetup and support: https://github.com/chrissotraidis/dinopad#readme",
-      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/dinopad/535ce8199071f172dc56474bb1e4cff27566983c/apple/app/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
-      "tintColor": "#398267",
-      "category": "games",
-      "versions": [
-        {
-          "version": "0.1.2",
-          "buildVersion": "3",
-          "marketingVersion": "0.1.2",
-          "date": "2026-08-19T15:48:54Z",
-          "localizedDescription": "Version 0.1.2 improves ROM-import guidance, adds optional touch Z targeting lock and fixes second-session zoom/crop.",
-          "downloadURL": "https://github.com/chrissotraidis/dinopad/releases/download/v0.1.2/DinoPad-0.1.2-prototype-only-unsigned.ipa",
-          "size": 13429076,
-          "sha256": "9efb91b2f71f8fbaff67ba8f3fd262c8013a0be7358aed47d00d5dab65cb7c04",
-          "minOSVersion": "15.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
       }
     },
     {
