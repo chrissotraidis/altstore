@@ -2,7 +2,7 @@
 
 Native game ports for iPhone and iPad, maintained by Kahris and available through AltStore Classic.
 
-Browse 15 apps below, add the source, and follow each project's game-data setup guide.
+> **Work in progress.** This catalog is being rebuilt. Previous builds have been retired; new versions will be added here as they are ready.
 
 ## Add the source
 
@@ -26,21 +26,12 @@ The catalog uses the latest published iPhone/iPad releases. Release labels are r
 
 | App | What it is | Selected release | Device / minimum OS |
 | --- | --- | --- | --- |
-| [HarkinianPad](https://github.com/chrissotraidis/harkinianpad) | Ocarina of Time for iPhone and iPad | [0.1.0 Preview 5](https://github.com/chrissotraidis/harkinianpad/releases/tag/v0.1.0-preview.5) | iPhone / iPad; 14.0+ |
-| [SpaghettiPad](https://github.com/chrissotraidis/spaghettipad) | Mario Kart 64 for iPhone and iPad | [0.1.0 Preview 6](https://github.com/chrissotraidis/spaghettipad/releases/tag/v0.1.0-preview.6) | iPhone / iPad; 15.0+ |
-| [UTP](https://github.com/chrissotraidis/utp) | Unreal Tournament 99 for iPhone and iPad | [0.1.0 · iOS 15 compatibility](https://github.com/chrissotraidis/utp/releases/tag/v0.1.0-issue-6-test.1) | iPhone / iPad; 15.0+ |
-| [BrawlerPad](https://github.com/chrissotraidis/brawlerpad) | Super Smash Bros. 64 for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/brawlerpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 17.0+ |
-| [MaskPad](https://github.com/chrissotraidis/maskpad) | Majora's Mask for iPhone and iPad | [0.1.2](https://github.com/chrissotraidis/maskpad/releases/tag/v0.1.2) | iPhone / iPad; 14.0+ |
-| [StarshipPad](https://github.com/chrissotraidis/starshippad) | Star Fox 64 for iPhone and iPad | [0.1.0 Preview 5](https://github.com/chrissotraidis/starshippad/releases/tag/v0.1.0-preview.5) | iPhone / iPad; 16.0+ |
-| [PaperPad](https://github.com/chrissotraidis/paperpad) | Paper Mario for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/paperpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 15.0+ |
-| [DevilTouch](https://github.com/chrissotraidis/deviltouch) | Diablo and Hellfire through DevilutionX on iPad | [1.5.5 Preview 1 · build 2](https://github.com/chrissotraidis/deviltouch/releases/tag/v1.5.5-preview.1) | Designed for iPad; 13.0+ |
 | [CaesarPad](https://github.com/chrissotraidis/caesarpad) | Caesar III through Augustus, designed for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1) | Designed for iPad; 14.0+ |
-| [Bellpad](https://github.com/chrissotraidis/bellpad) | Animal Crossing for iPhone and iPad | [0.1.0 Preview 2](https://github.com/chrissotraidis/bellpad/releases/tag/v0.1.0-preview.2) | iPhone / iPad; 17.0+ |
 | [PeonPad](https://github.com/chrissotraidis/peonpad) | Warcraft II through Stratagus on iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1) | iPad; 16.0+ |
 
-CaesarPad and DevilTouch are designed for iPad; their packages also declare iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
+CaesarPad is designed for iPad; its package also declares iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
 
-The source highlights HarkinianPad and SpaghettiPad. All 11 listed apps remain in the catalog.
+The catalog currently lists 2 apps.
 
 ## Game setup and support
 
@@ -50,7 +41,6 @@ Open the app's linked GitHub repository for controls, known issues, credits, lic
 
 Back up saves before changing signing or installation setups. Update existing apps in place using the same signing identity; uninstalling can remove their data.
 
-**Already using UTP Preview 3?** The newer compatibility IPA reuses version 0.1.0/build 3, so AltStore will not identify it as a new version automatically. New installations use the selected compatibility build. See the [update note](docs/LAUNCH.md#utp-update-numbering) before replacing an existing installation.
 
 These are independently maintained community projects. Their upstream projects and game rights holders retain their respective rights. Inclusion in this catalog is not a claim of endorsement.
 
@@ -72,7 +62,7 @@ For a new app release, publish and verify the new IPA first, then add its versio
 
 Pushing application code or publishing a GitHub Release does not automatically change this catalog. Conversely, publishing a changed catalog can make a new version available immediately. Test future changes on a separate branch/source URL first.
 
-Icons and screenshots link to pinned commits in the original repositories. Most screenshots are existing iPad captures; StarshipPad's is a Simulator capture.
+Icons and screenshots link to pinned commits in the original repositories. Screenshots are existing iPad captures.
 
 ## Support my work
 
