@@ -28,10 +28,13 @@ The catalog uses the latest published iPhone/iPad releases. Release labels are r
 | --- | --- | --- | --- |
 | [CaesarPad](https://github.com/chrissotraidis/caesarpad) | Caesar III through Augustus, designed for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/caesarpad/releases/tag/v0.1.0-preview.1) | Designed for iPad; 14.0+ |
 | [PeonPad](https://github.com/chrissotraidis/peonpad) | Warcraft II through Stratagus on iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1) | iPad; 16.0+ |
+| [DaggerPad](https://github.com/chrissotraidis/daggerpad) | Daggerfall through Daggerfall Unity, rebuilt for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/daggerpad/releases/tag/v0.1.0-preview.1) | iPad; 15.0+ |
+| [Emerald Tablet](https://github.com/chrissotraidis/emeraldtablet) | Pharaoh + Cleopatra through Akhenaten, designed for iPad | [0.1.0 Preview 1](https://github.com/chrissotraidis/emeraldtablet/releases/tag/v0.1.0-preview.1) | Designed for iPad; 15.0+ |
+| [RAtouch](https://github.com/chrissotraidis/ratouch) | Red Alert with a touch-first control system for iPad | [0.1.0](https://github.com/chrissotraidis/ratouch/releases/tag/v0.1.0) | Designed for iPad; 15.0+ |
 
-CaesarPad is designed for iPad; its package also declares iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
+CaesarPad, Emerald Tablet and RAtouch are designed for iPad; their packages also declare iPhone support, which is not a claim of equivalent iPhone testing. Minimum OS values come from the app packages, not AltStore Classic's own requirements.
 
-The catalog currently lists 2 apps.
+The catalog currently lists 5 apps. Every listed app runs an open engine and ships no game data; each IPA passes [PadForge](https://github.com/chrissotraidis/padforge)'s content check.
 
 ## Game setup and support
 

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-17T08:02:02.324018+00:00",
+  "checkedAt": "2026-09-29T08:23:36.623160+00:00",
   "sourceURL": "https://raw.githubusercontent.com/chrissotraidis/altstore/main/source.json",
   "scope": "Public GitHub release download and catalog metadata verification; not an AltStore install, device gameplay test, or rights clearance.",
   "apps": [
@@ -107,10 +107,162 @@
         "releaseURL": "https://github.com/chrissotraidis/peonpad/releases/tag/v0.1.0-preview.1"
       },
       "releaseReviewStatus": "Latest published iOS IPA selected."
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/daggerpad",
+      "name": "DaggerPad",
+      "readmeCommit": "a96d0aebd81b51e40b894123b5029ea4b70c5332",
+      "readmeURL": "https://github.com/chrissotraidis/daggerpad/blob/a96d0aebd81b51e40b894123b5029ea4b70c5332/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/daggerpad/releases/tag/v0.1.0-preview.1",
+      "tag": "v0.1.0-preview.1",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/daggerpad/releases/download/v0.1.0-preview.1/DaggerPad-0.1.0-preview.1-unsigned.ipa",
+      "sha256": "d14544e950c8aee756822fbc4bc03f8922644173aa433bae5d7c09d0787de067",
+      "githubDigest": "sha256:d14544e950c8aee756822fbc4bc03f8922644173aa433bae5d7c09d0787de067",
+      "size": 61116938,
+      "bundleIdentifier": "com.chrissotraidis.daggerpad",
+      "version": "0.1.0",
+      "buildVersion": "1",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "deviceFamilies": [
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/DaggerPad.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "contentCheck": "PadForge audit PASS (29 Sep 2026): no console keys, 0 address-named functions; open engine, no game data",
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/daggerpad/a96d0aebd81b51e40b894123b5029ea4b70c5332/Assets/Brand/DaggerPadAppIcon.png"
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/daggerpad/a96d0aebd81b51e40b894123b5029ea4b70c5332/docs/images/readme/physical-ipad-snowy-town.jpeg",
+        "width": 1800,
+        "height": 1349
+      },
+      "selectionReason": "Latest published IPA of an open-engine port that ships no game data.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.1",
+        "publishedAt": "2026-08-18T16:04:10Z",
+        "releaseURL": "https://github.com/chrissotraidis/daggerpad/releases/tag/v0.1.0-preview.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/emeraldtablet",
+      "name": "Emerald Tablet",
+      "readmeCommit": "07b7f8ac43c8ee750b40095c25153394697d617c",
+      "readmeURL": "https://github.com/chrissotraidis/emeraldtablet/blob/07b7f8ac43c8ee750b40095c25153394697d617c/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/emeraldtablet/releases/tag/v0.1.0-preview.1",
+      "tag": "v0.1.0-preview.1",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/emeraldtablet/releases/download/v0.1.0-preview.1/EmeraldTablet-0.1.0-preview.1-unsigned.ipa",
+      "sha256": "9acc46de667c99681c15f39789321102bce2ca86980e67d225335398d2107372",
+      "githubDigest": "sha256:9acc46de667c99681c15f39789321102bce2ca86980e67d225335398d2107372",
+      "size": 15512532,
+      "bundleIdentifier": "com.chrissotraidis.emeraldtablet",
+      "version": "0.1.0",
+      "buildVersion": "1",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/akhenaten.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "contentCheck": "PadForge audit PASS (29 Sep 2026): no console keys, 0 address-named functions; open engine, no game data",
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/emeraldtablet/07b7f8ac43c8ee750b40095c25153394697d617c/assets/ios/AppIcon.png"
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/emeraldtablet/07b7f8ac43c8ee750b40095c25153394697d617c/assets/screenshots/emerald-tablet-gameplay-ipad.png",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published IPA of an open-engine port that ships no game data.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0-preview.1",
+        "publishedAt": "2026-08-24T19:21:07Z",
+        "releaseURL": "https://github.com/chrissotraidis/emeraldtablet/releases/tag/v0.1.0-preview.1"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
+    },
+    {
+      "repository": "https://github.com/chrissotraidis/ratouch",
+      "name": "RAtouch",
+      "readmeCommit": "8ecbc1890ee7ed2c05fb7897062b375b35ff0451",
+      "readmeURL": "https://github.com/chrissotraidis/ratouch/blob/8ecbc1890ee7ed2c05fb7897062b375b35ff0451/README.md",
+      "releaseURL": "https://github.com/chrissotraidis/ratouch/releases/tag/v0.1.0",
+      "tag": "v0.1.0",
+      "prerelease": true,
+      "downloadURL": "https://github.com/chrissotraidis/ratouch/releases/download/v0.1.0/RAtouch-v0.1.0-unsigned.ipa",
+      "sha256": "0586c70ce6801e9cf3c967bf16b2a5ead2a78a398134d42c933526d4ca158041",
+      "githubDigest": "sha256:0586c70ce6801e9cf3c967bf16b2a5ead2a78a398134d42c933526d4ca158041",
+      "size": 2596604,
+      "bundleIdentifier": "com.chrissotraidis.ratouch",
+      "version": "0.1.0",
+      "buildVersion": "1",
+      "minimumOS": "15.0",
+      "minimumOSOrigin": "Info.plist",
+      "deviceFamilies": [
+        1,
+        2
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "codeSignatureChecks": [
+        {
+          "bundle": "Payload/RAtouch.app",
+          "unsigned": true,
+          "entitlements": {}
+        }
+      ],
+      "contentCheck": "PadForge audit PASS (29 Sep 2026): no console keys, 0 address-named functions; open engine, no game data",
+      "icon": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/ratouch/8ecbc1890ee7ed2c05fb7897062b375b35ff0451/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png"
+      },
+      "screenshot": {
+        "imageURL": "https://raw.githubusercontent.com/chrissotraidis/ratouch/8ecbc1890ee7ed2c05fb7897062b375b35ff0451/docs/images/ratouch-gameplay.png",
+        "width": 2732,
+        "height": 2048
+      },
+      "selectionReason": "Latest published IPA of an open-engine port that ships no game data.",
+      "classicInstallTest": "pending",
+      "gameplayTestThisAudit": "not performed",
+      "latestPublishedIOSRelease": {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-08-08T11:38:51Z",
+        "releaseURL": "https://github.com/chrissotraidis/ratouch/releases/tag/v0.1.0"
+      },
+      "releaseReviewStatus": "Latest published iOS IPA selected."
     }
   ],
   "pending": [],
   "releaseReviewedAt": "2026-09-17T08:36:51.749754+00:00",
   "displayName": "Kahris' Apps",
-  "lastCatalogChangeAt": "2026-09-17T10:57:20.462703+00:00"
+  "lastCatalogChangeAt": "2026-09-29T08:23:36.623160+00:00"
 }

@@ -78,6 +78,114 @@
           }
         ]
       }
+    },
+    {
+      "name": "DaggerPad",
+      "bundleIdentifier": "com.chrissotraidis.daggerpad",
+      "developerName": "Kahris",
+      "subtitle": "Daggerfall through Daggerfall Unity, rebuilt for iPad",
+      "localizedDescription": "The Elder Scrolls II: Daggerfall through the open-source Daggerfall Unity engine, rebuilt for iPad with Metal rendering, touch-first controls, Files-based setup, and keyboard, pointer and controller support. iPad only.\n\nRequires Daggerfall game files that you supply. No game data is included.\n\nSetup and support: https://github.com/chrissotraidis/daggerpad#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/daggerpad/a96d0aebd81b51e40b894123b5029ea4b70c5332/Assets/Brand/DaggerPadAppIcon.png",
+      "tintColor": "#7A2E1F",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "marketingVersion": "0.1.0 Preview 1",
+          "date": "2026-08-18T16:04:10Z",
+          "localizedDescription": "First public preview. Supply your own Daggerfall files after installation.",
+          "downloadURL": "https://github.com/chrissotraidis/daggerpad/releases/download/v0.1.0-preview.1/DaggerPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 61116938,
+          "sha256": "d14544e950c8aee756822fbc4bc03f8922644173aa433bae5d7c09d0787de067",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/daggerpad/a96d0aebd81b51e40b894123b5029ea4b70c5332/docs/images/readme/physical-ipad-snowy-town.jpeg",
+            "width": 1800,
+            "height": 1349
+          }
+        ]
+      }
+    },
+    {
+      "name": "Emerald Tablet",
+      "bundleIdentifier": "com.chrissotraidis.emeraldtablet",
+      "developerName": "Kahris",
+      "subtitle": "Pharaoh + Cleopatra through Akhenaten, designed for iPad",
+      "localizedDescription": "Pharaoh + Cleopatra through the open-source Akhenaten engine, with touch navigation and Apple Pencil support. Designed for iPad; the package also declares iPhone, which is less tested.\n\nRequires files from your own Pharaoh + Cleopatra copy. No game data is included.\n\nSetup and support: https://github.com/chrissotraidis/emeraldtablet#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/emeraldtablet/07b7f8ac43c8ee750b40095c25153394697d617c/assets/ios/AppIcon.png",
+      "tintColor": "#1E7F6E",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "marketingVersion": "0.1.0 Preview 1",
+          "date": "2026-08-24T19:21:07Z",
+          "localizedDescription": "First public preview. Supply your own Pharaoh + Cleopatra files after installation.",
+          "downloadURL": "https://github.com/chrissotraidis/emeraldtablet/releases/download/v0.1.0-preview.1/EmeraldTablet-0.1.0-preview.1-unsigned.ipa",
+          "size": 15512532,
+          "sha256": "9acc46de667c99681c15f39789321102bce2ca86980e67d225335398d2107372",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/emeraldtablet/07b7f8ac43c8ee750b40095c25153394697d617c/assets/screenshots/emerald-tablet-gameplay-ipad.png",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
+    },
+    {
+      "name": "RAtouch",
+      "bundleIdentifier": "com.chrissotraidis.ratouch",
+      "developerName": "Kahris",
+      "subtitle": "Red Alert with a touch-first control system for iPad",
+      "localizedDescription": "The original Red Alert simulation from its GPL source release, with a touch-first control system designed for iPad. The package also declares iPhone, which is less tested.\n\nRequires compatible Red Alert data that you supply. No game data is included.\n\nSetup and support: https://github.com/chrissotraidis/ratouch#readme",
+      "iconURL": "https://raw.githubusercontent.com/chrissotraidis/ratouch/8ecbc1890ee7ed2c05fb7897062b375b35ff0451/apple/ios/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "tintColor": "#B3261E",
+      "category": "games",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "marketingVersion": "0.1.0",
+          "date": "2026-08-08T11:38:51Z",
+          "localizedDescription": "First public build. Supply your own Red Alert data after installation.",
+          "downloadURL": "https://github.com/chrissotraidis/ratouch/releases/download/v0.1.0/RAtouch-v0.1.0-unsigned.ipa",
+          "size": 2596604,
+          "sha256": "0586c70ce6801e9cf3c967bf16b2a5ead2a78a398134d42c933526d4ca158041",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "screenshots": {
+        "ipad": [
+          {
+            "imageURL": "https://raw.githubusercontent.com/chrissotraidis/ratouch/8ecbc1890ee7ed2c05fb7897062b375b35ff0451/docs/images/ratouch-gameplay.png",
+            "width": 2732,
+            "height": 2048
+          }
+        ]
+      }
     }
   ],
   "news": []
